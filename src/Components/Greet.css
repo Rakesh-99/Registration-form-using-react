@@ -1,0 +1,23 @@
+.greetParentContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+
+}
+.greet-child-container{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 5px 5px 9px green;
+    border-radius: 10px;
+}
+h3{
+    font-weight: 500;
+    color: rgba(43, 43, 43, 0.903);
+    font-family: fira code;
+    
+}

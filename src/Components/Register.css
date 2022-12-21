@@ -1,0 +1,59 @@
+.parentContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 10px;
+  margin-top: 50px 0;
+}
+.childContainer {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 500px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 30px grey;
+  
+}
+.childContainer h2{
+    background-color: blueviolet;
+    padding: 5px 300px;
+    color: white;
+    border-radius: 5px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+input{
+    width: 450px;
+    padding: 9px 5px;
+    margin: 15px 0;
+    border-radius: 4px;
+   
+
+
+
+}
+input:focus{
+     background-color: rgb(225, 241, 254);
+    
+}
+button{
+    background-color: rgb(4, 142, 255);
+    color: white;
+    font-family: fira code;
+    border-radius: 3px;
+    border: none;
+    padding: 10px 30px;
+    cursor: pointer;
+    margin: 10px 5px;
+}
+.btnContainer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    
+}
+label{
+    margin-right: 20px;
+}
